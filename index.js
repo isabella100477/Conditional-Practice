@@ -21,8 +21,17 @@ If the grade is 0,No Attempt should print to the console.
 
 function test(grade){
 //CODE BELOW HERE
-
-
-
+if (grade == 100) {
+console.log('Green')
+}
+else if (grade >= 70 && grade <= 90) {
+console.log('Yellow')
+}
+else if (grade >= 1 && grade <= 69) {
+console.log('Red')
+}
+else if (grade == 0) {
+console.log('No Attempt')
+}
 //CODE ABOVE HERE
 }
